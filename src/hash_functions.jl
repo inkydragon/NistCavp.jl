@@ -54,7 +54,7 @@ function sha12_monte_carlo_checkpoints(seed_in, seed_len::Int, sha_f::Function)
 end
 
 function sha12_csvs_msg(sha_f::Function)
-    p = CAVS_TESTSET_12[sha_f]
+    p = CAVS_TESTSET_12[Symbol(sha_f)]
     md = sha12_monte_carlo_checkpoints(p.seed, p.seed_len, sha_f)
     [bytes2hex(row) for row in eachrow(md)]
 end
@@ -92,7 +92,7 @@ function sha3_monte_carlo_checkpoints(seed_in, seed_len::Int, sha_f::Function)
 end
 
 function sha3_csvs_msg(sha_f::Function)
-    p = CAVS_TESTSET_3[sha_f]
+    p = CAVS_TESTSET_3[Symbol(sha_f)]
     md = sha3_monte_carlo_checkpoints(p.seed, p.seed_len, sha_f)
     [bytes2hex(row) for row in eachrow(md)]
 end

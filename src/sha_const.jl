@@ -107,7 +107,7 @@ Metadata and test vectors came from:
 """
 CAVS_TESTSET_12 = Dict(
     # SHA-1
-    sha1 => (
+    :sha1 => (
         # test name
         name="SHA-1 Monte",
         # test seed
@@ -119,37 +119,37 @@ CAVS_TESTSET_12 = Dict(
     ),
 
     # SHA-2
-    sha2_224 => (
+    :sha2_224 => (
         name="SHA-224 Monte",
         seed="ed2b70d575d9d0b4196ae84a03eed940057ea89cdd729b95b7d4e6a5",
         seed_len=28,
         cavs_vec=SHA2_224_CAVS_VEC
     ),
-    sha2_256 => (
+    :sha2_256 => (
         name="SHA-256 Monte",
         seed="6d1e72ad03ddeb5de891e572e2396f8da015d899ef0e79503152d6010a3fe691",
         seed_len=32,
         cavs_vec=SHA2_256_CAVS_VEC
     ),
-    sha2_384 => (
+    :sha2_384 => (
         name="SHA-384 Monte",
         seed="edff07255c71b54a9beae52cdfa083569a08be89949cbba73ddc8acf429359ca5e5be7a673633ca0d9709848f522a9df",
         seed_len=48,
         cavs_vec=SHA2_384_CAVS_VEC
     ),
-    sha2_512 => (
+    :sha2_512 => (
         name="SHA-512 Monte",
         seed="5c337de5caf35d18ed90b5cddfce001ca1b8ee8602f367e7c24ccca6f893802fb1aca7a3dae32dcd60800a59959bc540d63237876b799229ae71a2526fbc52cd",
         seed_len=64,
         cavs_vec=SHA2_512_CAVS_VEC
     ),
-    # sha2_512_224 => (
+    # :sha2_512_224 => (
     #     name = "SHA-512/224 Monte",
     #     seed = "2e325bf8c98c0be54493d04c329e706343aebe4968fdd33b37da9c0a",
     #     seed_len = 28,
     #     cavs_vec = SHA2_512_224_CAVS_VEC
     # ),
-    # sha2_512_256 => (
+    # :sha2_512_256 => (
     #     name = "SHA-512/256 Monte",
     #     seed = "f41ece2613e4573915696b5adcd51ca328be3bf566a9ca99c9ceb0279c1cb0a7",
     #     seed_len = 32,
@@ -166,25 +166,25 @@ Metadata and test vectors came from:
 """
 CAVS_TESTSET_3 = Dict(
     # SHA-3
-    sha3_224 => (
+    :sha3_224 => (
         name="SHA3-224 Monte",
         seed="3a9415d401aeb8567e6f0ecee311f4f716b39e86045c8a51383db2b6",
         seed_len=28,
         cavs_vec=SHA3_224_CAVS_VEC
     ),
-    sha3_256 => (
+    :sha3_256 => (
         name="SHA3-256 Monte",
         seed="aa64f7245e2177c654eb4de360da8761a516fdc7578c3498c5e582e096b8730c",
         seed_len=32,
         cavs_vec=SHA3_256_CAVS_VEC
     ),
-    sha3_384 => (
+    :sha3_384 => (
         name="SHA3-384 Monte",
         seed="7a00791f6f65c21f1c97c58fa3c0520cfc85cd7e3d398cf01950819fa717195065a363e77d07753647cb0c130e9972ad",
         seed_len=48,
         cavs_vec=SHA3_384_CAVS_VEC
     ),
-    sha3_512 => (
+    :sha3_512 => (
         name="SHA3-512 Monte",
         seed="764a5511f00dbb0eaef2eb27ad58d35f74f563b88f789ff53f6cf3a47060c75ceb455444cd17b6d438c042e0483919d249f2fd372774647d2545cbfad20b4d31",
         seed_len=64,
