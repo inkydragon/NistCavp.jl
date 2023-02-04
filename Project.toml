@@ -1,0 +1,13 @@
+name = "NistCavp"
+uuid = "c7224155-abc7-4c49-9273-8f27c9b26871"
+authors = ["woclass <git@wo-class.cn> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
