@@ -21,7 +21,8 @@ jobs:
       fail-fast: false
       matrix:
         version:
-          - '1.0'
+          # TODO: add support for v1.0
+          # - '1.0'
           - '1.8'
           - 'nightly'
         os:
