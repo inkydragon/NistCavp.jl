@@ -1,5 +1,7 @@
 # NistCavp
 
+[![CI](https://github.com/inkydragon/NistCavp.jl/actions/workflows/CI.yml/badge.svg)](https://github.com/inkydragon/NistCavp.jl/actions/workflows/CI.yml)
+
 > NIST —— Cryptographic Algorithm Validation Program (CAVP)
 
 ## test suite
