@@ -1,5 +1,10 @@
 module NistCavp
 
-# Write your package code here.
+export fakeHashFunction
 
+
+function fakeHashFunction()
+    return 0x00
 end
+
+end # NistCavp
